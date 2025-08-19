@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>测试 saveChoice 接口</title>
+</head>
+<body>
+  <button onclick="sendTest()">发送测试请求</button>
+
+  <script>
+    function sendTest() {
+      fetch("http://140.143.248.88:3000/api/saveChoice", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          userId: "test_user",
+          content: "测试内容",
+          nextId: "0000",
+          timestamp: Date.now()
+        })
+      }).then(res => res.json())
+        .then(data => console.log("✅ 成功：", data))
+        .catch(err => console.error("❌ 失败：", err));
+    }
+  </script>
+</body>
+</html>

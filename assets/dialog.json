@@ -1,0 +1,284 @@
+{
+    "fromMe": 
+ [
+    {
+        "id": "0000",
+        "details": 
+        [
+            [
+                "下午好啊",
+                "老姐",
+                "时间这么快，我马上就要开学了！！！",
+                "你看看是不是该给你的弟弟践行一下呢",
+                "<img src='img/thankjiejie.jpg'>"
+                
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "可以",
+            "nextAuthor": ["0001"]
+         },
+         {
+            "content": "不可以",
+            "nextAuthor": ["0002"]
+         }
+         
+        ]
+    }, 
+    {
+        "id": "0001",
+        "details": 
+        [
+            [
+                
+                "我就知道你对你弟弟还是很好的！！！",
+                "我们是抗赵家女人统一战线",
+                "我想要红包，好吃的还有好喝的可以吗"
+               
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "给你发红包！！！",
+            "nextAuthor": ["0012"]
+         },
+         {
+            "content": "给你吃好吃的！！！",
+            "nextAuthor": ["0012"]
+         },
+          {
+            "content": "给你好喝的！！！",
+            "nextAuthor": ["0012"]
+         },
+         {
+            "content": "我弟弟得我宠，红包，好吃的和好喝的都给你！",
+            "nextAuthor": ["0003"]
+         }
+          
+        ]
+    },{
+        "id": "0012",
+        "details": 
+        [
+            [
+                
+                "你选错了",
+                 "<img src='img/heng.jpg'>",
+                "重新选"
+               
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "给你发红包！！！",
+            "nextAuthor": ["0012"]
+         },
+         {
+            "content": "给你吃好吃的！！！",
+            "nextAuthor": ["0012"]
+         },
+          {
+            "content": "给你好喝的！！！",
+            "nextAuthor": ["0012"]
+         },
+         {
+            "content": "我弟弟得我宠，红包，好吃的和好喝的都给你！",
+            "nextAuthor": ["0003"]
+         }
+          
+        ]
+    },
+    {
+      "id": "0002",
+      "details": [
+        [
+        "20年的姐弟情分，终究还是淡了！",
+         "<img src='img/mai1.jpg'>",
+          "<img src='img/mai2.jpg'>",
+           "<img src='img/mai3.jpg'>"
+        ]
+      ],
+      "responses": [
+        {
+          "content": "骗你的，姐愿意带你吃喝",
+          "nextAuthor": ["0001"]
+        },
+        {
+          "content": "就不给你",
+          "nextAuthor": ["0002"]
+        }
+      ]
+    },
+    {
+        "id": "0003",
+        "details": 
+        [
+            [
+               
+                "我姐果然对我好！",
+                "<img src='img/hongbao.jpg'>",
+                "正所谓红包是心意，你随便选一个吧，不用太多"
+                
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "200元",
+            "nextAuthor": ["0004"]
+         },
+         {
+            "content": "300元",
+            "nextAuthor": ["0004"]
+         },
+         {
+            "content": "400元",
+            "nextAuthor": ["0004"]
+         }
+          
+        ]
+    },{
+        "id": "0004",
+        "details": 
+        [
+            [
+               
+                "谢谢老姐的红包",
+              
+                "那么你要带我去哪吃饭呢？"
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "姐带你去吃烧烤",
+            "nextAuthor": ["0005"]
+         },
+         {
+            "content": "姐带你去吃火锅",
+            "nextAuthor": ["0005"]
+         },
+         {
+            "content": "姐带你去吃大虾",
+            "nextAuthor": ["0005"]
+         }
+          
+        ]
+    },{
+        "id": "0005",
+        "details": 
+        [
+            [
+                "我还想喝点东西！！！",
+                "你带我去哪家喝东西？"
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "咱们去霸王茶姬",
+            "nextAuthor": ["0006"]
+         },
+         {
+            "content": "咱们去茶百道",
+            "nextAuthor": ["0006"]
+         },
+         {
+            "content": "咱们去茶话弄",
+            "nextAuthor": ["0006"]
+         }
+          
+        ]
+    },
+    {
+        "id": "0006",
+        "details": 
+        [
+            [ 
+                " 谢谢老姐的深情款待",
+                "你说的我都记住了",
+                "那么问题来了，你什么时候带我去",
+                "<img src='img/heihei.jpg'>"
+                
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "明天后天",
+            "nextAuthor": ["0007"]
+         },
+         {
+            "content": "你走前两天",
+            "nextAuthor": ["0007"]
+         },{
+            "content": "等你下次回来吧",
+            "nextAuthor": ["0013"]
+         }
+          
+        ]
+    },
+    {
+        "id": "0013",
+        "details": 
+        [
+            [ 
+                " 我不要不要",
+                "你就是想要拖延，然后等我忘记了，重新选",
+               
+                "<img src='img/heihei.jpg'>"
+                
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "明天后天",
+            "nextAuthor": ["0007"]
+         },
+         {
+            "content": "你走前两天",
+            "nextAuthor": ["0007"]
+         },{
+            "content": "等你下次回来吧",
+            "nextAuthor": ["0013"]
+         }
+          
+        ]
+    },
+    {
+        "id": "0007",
+        "details": 
+        [
+            [ 
+                "好的",
+                "我可不会忘记的！！！",
+                "不请你就等着我耍麻吧",
+                
+                "<img src='img/jiejiezuihao.jpg>"
+                
+            ]
+        ],
+        "responses": 
+        [
+         {
+            "content": "对话已经结束",
+            "nextAuthor": ["end"]
+         }
+          
+        ]
+    },
+
+
+    {
+        "id": "end",
+        "details": [["（播放视频中……）"]]
+    }
+    
+    ],
+    "fromUser": []
+}
